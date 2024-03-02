@@ -1,12 +1,12 @@
-CXX = g++
-CXXFLAGS = -Wall -Wpedantic -Werror
+iXX = g++
+CXXFLAGS = -Wall -Wpedantic -Werror -g
 
 SRCS = $(wildcard ./src/*.cpp)
 OBJS = $(addsuffix .o, $(basename $(SRCS)))
 
-labirynth: $(OBJS)
+labyrinth: $(OBJS)
 	$(CXX) $(LDFLAGS) $(OBJS) -o $@
 
 clean:
-	rm labirynth
+	rm labyrinth
 	rm $(OBJS)

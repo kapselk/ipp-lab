@@ -11,5 +11,6 @@ Grid readGrid();
 bitset<M> readBoard(int n);
 bool readNewline();
 bool readEof();
+vector<int> readVector();
 
 #endif
