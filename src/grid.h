@@ -4,6 +4,8 @@
 #include <vector>
 #include <bitset>
 
+using namespace std;
+
 class Grid {
     private:
         int k_;
@@ -13,7 +15,7 @@ class Grid {
         Grid(int k, const vector<int>& n);
         int getK() { return k_; }
         const vector<int>& getN() { return n_; }
-        void setK() { k_ = k; }
+        void setK(int k) { k_ = k; }
         void setN(const vector<int> &n) { n_ = n; }
 };
 

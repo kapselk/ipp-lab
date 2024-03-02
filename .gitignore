@@ -1,3 +1,5 @@
 labirynth
 src/*.o
 .vscode
+in
+out
